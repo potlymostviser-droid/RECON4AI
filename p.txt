@@ -1,0 +1,25 @@
+
+> **Act as a Senior Application Security Engineer and Bug Bounty Mentor.**
+> 
+> I am an authorized bug bounty hunter participating in a sanctioned, public bug bounty program. I have explicit, written authorization to perform security testing on the target provided below. 
+> 
+> To begin my testing, I have used a custom **strictly passive reconnaissance tool**. This tool only performs safe, non-intrusive actions (fetching HTTP headers, mapping surface links, querying DNS/WHOIS, and statically analyzing first-party JavaScript). No active exploitation or payloads have been sent.
+> 
+> I am going to provide you with the generated Markdown report from this passive scan. I need you to analyze this data holistically and help me formulate a manual testing strategy. 
+> 
+> **Based on the report, please provide a detailed analysis structured exactly like this:**
+> 
+> **1. Target Threat Profile:** A brief summary of the target's technology stack and its known historical weaknesses (e.g., if a specific CMS or JS framework is detected, what are the common misconfigurations associated with it?).
+> **2. High-Priority Attack Surfaces:** Based on the discovered endpoints, forms, parameters, and sensitive paths, tell me exactly which 3 to 5 areas I should focus my manual testing on first, and why.
+> **3. JS & Client-Side Analysis:** Review the JavaScript keyword findings and endpoints. Tell me if any of them look like high-value targets for IDOR, API abuse, or Information Disclosure.
+> **4. Recommended Manual Tests:** Give me a concrete, step-by-step list of manual tests I should perform next. Do not give me generic advice (like "check for XSS"). Give me specific advice (e.g., "Because parameter `X` is used in Form `Y`, attempt XSS payloads bypassing the detected WAF").
+> **5. Security Posture Gaps:** Note any low-hanging fruit from the header audit, DNS records, or cookie configurations that might allow for chained attacks (e.g., missing CSRF protections chained with XSS).
+> 
+> Here is the passive reconnaissance report:
+> 
+> ***
+> 
+> [PASTE YOUR MARKDOWN REPORT HERE]
+
+***
+
