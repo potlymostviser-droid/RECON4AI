@@ -1,0 +1,20 @@
+# recon_tool/requirements.txt
+#
+# Directory: recon_tool/requirements.txt
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Python >= 3.9 is required.
+# All version pins use >= to allow patch updates while
+# preventing breaking major-version changes from being
+# silently pulled in.
+#
+# Do not add libraries beyond this list. Every import in
+# this project must resolve to either a package listed here
+# or a Python standard-library module.
+
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+dnspython>=2.4.0
+python-whois>=0.8.0
